@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> registrartion form</title>
+  </head>
+<body bgcolor="sky blue">
+<u><h1 align="center"> REGISTRATION FORM </h1></u>
+<form name="student bio-data" >
+  <p> STUDENT FULL NAME: <input name="sname" type="text" size="30"></p>
+  <p> FATHER NAME: <input name="fname" type="text" size="30"></p>
+  <p> MOTHER NAME: <input name="mname" type="text" size="30"></p>
+  <p> ADDRESS: <textarea name="addr" rows="5" cols="30" maxlength=200>
+              </textarea></p>
+  <p> GENDER: <input name="gender" type="radio" value="male" checked> Male 
+             <input name="gender" type="radio" value="female"> Female </p>
+  <p> COURSE: <br>
+              <select name="course">
+                  <option value="bsc">BSC</option>
+                  <option value="bcom">BCOM</option>
+                  <option value="bca">BCA</option>
+                  <option value="bba">BBA</option>
+             </select></p>
+  <p> SPORTS: <br>
+              <input name="cricket" type="checkbox" value="cricket">Cricket <br>
+              <input name="kabbadi" type="checkbox" value="kabbadi">Kabbadi <br>
+              <input name="karate" type="checkbox" value="karate">Karate <br>
+              <input name="cycling" type="checkbox" value="cycling">Cycling <br>
+              <input name="running" type="checkbox" value="running">Running <br>
+              <input name="swimming" type="checkbox" value="swimming">Swimming <br>
+              <input name="horse racing" type="checkbox" value="horse racing">Horse Racing
+              </p>
+  <p> COUNTRY: <br>
+              <input name="india" type="checkbox" value="india">India <br>
+              <input name="nepal" type="checkbox" value="nepal">Nepal <br>
+              <input name="sri lanka" type="checkbox" value="sri lanka">Sri lanka <br>
+              <input name="usa" type="checkbox" value="usa">USA <br>
+              <input name="canada" type="checkbox" value="canada">canada <br>
+              <input name="australia" type="checkbox" value="australia">Australia <br>
+              <input name="uk" type="checkbox" value="uk">UK 
+              </p>
+  <p> STATE: <br>
+             <input name="andhra pradesh" type="checkbox" value="andhra pradesh">Andhrapradesh <br>
+             <input name="telengana" type="checkbox" value="telengana">Telengana <br>
+             <input name="tamil nadu" type="checkbox" value="tamil nadu">Tamil Nadu <br>
+             <input name="karnataka" type="checkbox" value="karnataka">Karnataka <br>
+             <input name="kerala" type="checkbox" value="kerala">Kerala
+             </p>
+  <p>DISTRICT: <br>
+               <input name="nellore" type="checkbox" value="nellore">Nellore <br>
+               <input name="tirupati" type="checkbox" value="tirupati">Tirupati <br>
+               <input name="ongole" type="checkbox" value="ongole">Ongole <br>
+               <input name="kadapa" type="checkbox" value="kadapa">kadapa <br>
+               <input name="vijayawada" type="checkbox" value="vijayawada">vijayawada
+               </p>
+  <p> AGE: <input name="age" type="text" size="10"></p>
+  <p> LANGUAGES KNOWN: <br>
+                      <input name="eng" type="checkbox" value="English">English <br>
+                      <input name="tel" type="checkbox" value="Telugu">Telugu <br>
+                      <input name="hin" type="checkbox" value="Hindi">Hindi</p>
+  <p><input name="reg" type="submit" value="submit">
+     <input name="cancel" type="reset"></p>                   
+</form>
+</body> 
+</html>
